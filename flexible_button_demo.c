@@ -2,7 +2,7 @@
  * @File:    flexible_button_demo.c
  * @Author:  MurphyZhao
  * @Date:    2018-09-29
- * 
+ *
  * Copyright (c) 2018-2019 MurphyZhao <d2014zjt@163.com>
  *               https://github.com/murphyzhao
  * All rights reserved.
@@ -49,32 +49,51 @@ static void btn_0_cb(flex_button_t *btn)
     switch (btn->event)
     {
         case FLEX_BTN_PRESS_DOWN:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_DOWN]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_DOWN]\n");
+          break;
         case FLEX_BTN_PRESS_CLICK:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_CLICK]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_CLICK]\n");
+          break;
         case FLEX_BTN_PRESS_DOUBLE_CLICK:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_DOUBLE_CLICK]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_DOUBLE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_TRIPLE_CLICK:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_TRIPLE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_QUADRA_CLICK:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_QUADRA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_PENTA_CLICK:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_PENTA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_HEXA_CLICK:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_HEXA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_GODLIKE_CLICK:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_GODLIKE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_LEGENDARY:
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LEGENDARY]\n");
+          break;
         case FLEX_BTN_PRESS_SHORT_START:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_SHORT_START]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_SHORT_START]\n");
+          break;
         case FLEX_BTN_PRESS_SHORT_UP:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_SHORT_UP]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_SHORT_UP]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_START:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_START]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_START]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_UP:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_UP]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_UP]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_HOLD:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_HOLD]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_HOLD]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_HOLD_UP:
-            rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_HOLD_UP]\n");
-            break;
+          rt_kprintf("btn_0_cb [FLEX_BTN_PRESS_LONG_HOLD_UP]\n");
+          break;
+        }
     }
 }
 
@@ -84,32 +103,51 @@ static void btn_1_cb(flex_button_t *btn)
     switch (btn->event)
     {
         case FLEX_BTN_PRESS_DOWN:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_DOWN]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_DOWN]\n");
+          break;
         case FLEX_BTN_PRESS_CLICK:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_CLICK]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_CLICK]\n");
+          break;
         case FLEX_BTN_PRESS_DOUBLE_CLICK:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_DOUBLE_CLICK]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_DOUBLE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_TRIPLE_CLICK:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_TRIPLE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_QUADRA_CLICK:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_QUADRA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_PENTA_CLICK:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_PENTA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_HEXA_CLICK:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_HEXA_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_GODLIKE_CLICK:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_GODLIKE_CLICK]\n");
+          break;
+        case FLEX_BTN_PRESS_LEGENDARY:
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LEGENDARY]\n");
+          break;
         case FLEX_BTN_PRESS_SHORT_START:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_SHORT_START]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_SHORT_START]\n");
+          break;
         case FLEX_BTN_PRESS_SHORT_UP:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_SHORT_UP]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_SHORT_UP]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_START:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_START]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_START]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_UP:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_UP]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_UP]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_HOLD:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_HOLD]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_HOLD]\n");
+          break;
         case FLEX_BTN_PRESS_LONG_HOLD_UP:
-            rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_HOLD_UP]\n");
-            break;
+          rt_kprintf("btn_1_cb [FLEX_BTN_PRESS_LONG_HOLD_UP]\n");
+          break;
+        }
     }
 }
 
@@ -145,7 +183,7 @@ static void button_scan(void *arg)
 static void user_button_init(void)
 {
     int i;
-    
+
     rt_memset(&user_button[0], 0x0, sizeof(user_button));
 
     user_button[USER_BUTTON_0].usr_button_read = button_key0_read;
@@ -165,10 +203,10 @@ static void user_button_init(void)
     for (i = 0; i < USER_BUTTON_MAX; i ++)
     {
         user_button[i].pressed_logic_level = 0;
-        user_button[i].click_start_tick = 20;
-        user_button[i].short_press_start_tick = 100;
-        user_button[i].long_press_start_tick = 200;
-        user_button[i].long_hold_start_tick = 300;
+        user_button[i].short_press_start_tick = 1500; // 1500ms
+        user_button[i].long_press_start_tick = 3000;
+        user_button[i].long_hold_start_tick = 4500;
+        user_button[i].release_max_cnt = 400;
 
         if (i == USER_BUTTON_3)
         {
